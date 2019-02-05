@@ -2,87 +2,118 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Porfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Porfolio</title>
+
 </head>
 
 <body>
 
-    <header>
+    <!-- this is the nav bar  -->
 
-        <nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Richard Fink</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-            <div id="myname">Richard Fink</div>
+    <!-- this is the page content  -->
 
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-            </ul>
+    <div class="container col-md-8 offset-md-2">
 
-        </nav>
+        <div class="row-fluid">
 
-    </header>
-
-    <div class="portfolio-container">
-
-        <h2>Portfolio</h2>
-
-        <div>
-
-            <section class="portfolio-item">
-                <img id="image-1" src="/assets/images/PI-Featured-Image copy.png" alt="Practical Inventions Logo">
-                <div id="desc-1">
-                    <h3>Practical Inventions Logo</h3>
-                </div>
-            </section>
-
-
-            <section class="portfolio-item">
-                <img id="image-2" src="/assets/images/griffith-brochure-featured-image copy.png" alt="Griffith Family Foundation Brochure">
-                <div id="desc-2">
-                    <h3>Griffith Family Foundation Brochure</h3>
-                </div>
-            </section>
+            <div class="span12">
+                <h1>Porfolio</h1>
+            </div>
 
         </div>
 
-        <div class="row">
+        <hr>
 
-            <section class="portfolio-item">
-                <img id="image-3" src="/assets/images/jmg-xmas-card-2018 copy.png" alt="JMG Christmas Card">
-                <div id="desc-3">
-                    <h3>JMG Systems Christmas Card Illustration</h3>
+        <div class="row-fluid">
+
+            <div class="card-deck">
+
+                <div class="card">
+                    <img src="/assets/images/PI-Featured-Image copy.png" class="card-img-top" alt="Practical Inventions Logo">
+                    <div class="card-body">
+                        <p class="card-text">Practical Inventions Logo</p>
+                    </div>
                 </div>
-            </section>
 
-            <section class="portfolio-item">
-                <img id="image-4" src="/assets/images/lytle-print-feature-image copy.png" alt="Lytle EAP Graphic">
-                <div id="desc-4">
-                    <h3>Lytle EAP Flyer</h3>
+                <div class="card">
+                    <img src="/assets/images/griffith-brochure-featured-image copy.png" class="card-img-top" alt="Griffith Family Foundation Brochure">
+                    <div class="card-body">
+                        <p class="card-text">Griffith Family Foundation Brochure</p>
+                    </div>
                 </div>
-            </section>
 
-        </div>
+            </div> <!-- end of card deck 1 -->
 
-        <div class="row">
+        </div> <!-- end of row 1 -->
 
-            <section class="portfolio-item">
-                <img id="image-5" src="/assets/images/EHEA_featured image copy.png" alt="East Hills Engineering Associates Website">
-                <div id="desc-5">
-                    <h3>East Hills Engineering Associates Website Re-Design</h3>
+        <br>
+
+        <div class="row-fluid">
+
+            <div class="card-deck">
+
+                <div class="card">
+                    <img src="/assets/images/jmg-xmas-card-2018 copy.png" class="card-img-top" alt="JMG Christmas Card">
+                    <div class="card-body">
+                        <p class="card-text">JMG Christmas Card</p>
+                    </div>
                 </div>
-            </section>
 
-        </div>
+                <div class="card">
+                    <img src="/assets/images/lytle-print-feature-image copy.png" class="card-img-top" alt="Lytle EAP Fyler">
+                    <div class="card-body">
+                        <p class="card-text">Lytle EAP Flyer</p>
+                    </div>
+                </div>
+
+            </div> <!-- end of card deck 2 -->
+
+        </div> <!-- end of row 2 -->
+
+        <br>
+
+        <div class="row-fluid">
+
+            <div class="card-deck">
+
+                <div class="card">
+                    <img src="/assets/images/EHEA_featured image copy.png" class="card-img-top" alt="East Hills Engineering Associates Website Update">
+                    <div class="card-body">
+                        <p class="card-text">East Hills Engineering Associates Website Update</p>
+                    </div>
+                </div>
+
+            </div> <!-- end of card deck 3 -->
+
+        </div> <!-- end of row 3 -->
+
+    </div> <!-- end of container -->
 
 
+    <!-- this is the footer  -->
 
-    </div>
-
-    <footer id="footer-info">
+    <footer>
         <p>copyright &copy; 2019</p>
     </footer>
 

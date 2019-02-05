@@ -1,2 +1,2 @@
-# Basic-Portfolio
-Unit 1 Homework Assignment
+# Bootstrap-Portfolio
+Unit 2 Assignment - Bootstrap Portfolio
