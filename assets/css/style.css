@@ -5,20 +5,20 @@ h4,
 h5,
 h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #24C2CB;
 }
 
 h2 {
     font-size: 22px;
     font-weight: bolder;
-    border-bottom: 3px solid #efefef;
+    border-bottom: 3px solid #24C2CB;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
 
 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #fff;
+    color: #EAE7D6;
 }
 
 
@@ -27,20 +27,25 @@ p {
     line-height: 1.75em;
 }
 
+.big-font {
+    font-size: 22px;
+    clear: both;
+    width: 100%;
+    padding: 20px;
+}
+
 /* Navigation */
 
 .navbar {
    
-    border-bottom: 1px solid #999;
-    background: #eee;
+    border-bottom: 1px solid #24C2CB;
+    background: #EAE7D6;
     height: 70px;
     
 }
 
-
-
 .navbar-brand {
-    background-color: #4aaaa5;
+    background-color: #24C2CB;
     color: #fff !important;
     padding: 20px 20px 20px 20px;
     margin-left: -20px;
@@ -48,10 +53,11 @@ p {
 
 .nav-item::after {
     content: "|";
-    color: #eee;
+    color: #EAE7D6;
     margin-top: 13px;
     padding: 0 10px 0 10px;
     margin-right: -10px;
+    opacity: .5;
 }
  
 .nav-item:last-child::after { 
@@ -61,7 +67,8 @@ p {
 /* Page Content */
 
 body {
-    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png");
+    background: #EF525B;
+    /* background: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png"); */
     color: #777777;
 }
 
@@ -112,13 +119,13 @@ body {
 /*contact page*/
 
 .btn-primary {
-    background-color: #4aaaa5;
-    border-color: #4aaaa5;
+    background-color: #24C2CB;
+    border-color: #24C2CB;
 }
 
 .btn-primary:hover {
-    background-color: #777;
-    border-color: #777;
+    background-color: #EF525B;
+    border-color: #EF525B;
 }
 
 
@@ -135,11 +142,10 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 5;
-    border-top: 5px solid #4aaaa5;
-    background-color: #24282e;    
-    color:#cccccc;
+    border-top: 5px solid #24C2CB;
+    background-color: #082E41;    
+    color: #EAE7D6;
     text-align: center;
     font-size: 10px;
-    /* margin-top: 50px; */
     padding: 30px 0 1px 0;
 }
