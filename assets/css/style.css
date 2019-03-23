@@ -35,7 +35,6 @@ h3 {
 
 .cta:hover {
     color: #FF717B;
-    /* text-decoration: none; */
 }
 
 p {
@@ -56,7 +55,6 @@ p {
     right: 0;
     left: 0;
     z-index: 1030;
-        
 }
 
 .navbar-brand {
@@ -110,17 +108,6 @@ body {
     position: relative;
 }
 
-.container {
-    clear: both;
-    background-color: #fff;
-    max-width: 960px;
-    margin-top: 25px;
-    margin-bottom: 100px;
-    padding: 40px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-
-}
 
 /* slider Section*/
 /* ----------------------------------------------------------- */
@@ -147,7 +134,6 @@ body {
     padding-bottom: 50px;
     padding-left: 120px;
     padding-right: 50px;
-    
 }
 
 #about-word {
@@ -167,10 +153,7 @@ body {
     padding-bottom: 20px;
     padding-left: 60px;
     padding-right: 20px;
- 
 }
-
-
 
 #profile-image {
     width: 390px;
@@ -179,7 +162,6 @@ body {
     bottom: -20px;
     opacity: .9;
 }
-
 
 #bio-image {
     display: none;
@@ -213,8 +195,6 @@ body {
     margin-bottom: 50px;
 }
 
-
-
 .adj1 {
     color: #fff ;
     padding-right: 55px;
@@ -223,7 +203,6 @@ body {
 .adj1:hover {
     color: #00CCA5;
 }
-
 
 
 /* Portfolio Section*/
@@ -237,22 +216,22 @@ body {
     padding-right: 100px;
 }
 
-
 .card:hover {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
     transition-duration: 0.4s;
 }
 
-.card {
-    border: 6px solid #0A455E ;
-    border-top: 6px solid #0A455E ;
-    border-radius: 10px;
+.card-img-top {
+    width: 97%;
+    margin: 5px;
 }
 
+.card-title {
+    font-weight: bold;
+}
 .card-body {
-    border-top: 6px solid #0A455E ;
+    /* color: #fff ; */
 }
-
 
 .yellow {
     background: #FFDE98;
@@ -294,7 +273,6 @@ body {
     margin-bottom: 50px;
 }
 
-
 .adj2 {
     color: #fff ;
     padding-right: 55px;
@@ -303,7 +281,6 @@ body {
 .adj2:hover {
     color: #00CCA5;
 }
-
 
 
 /*Contact Section*/
@@ -330,7 +307,6 @@ body {
     padding-bottom: 20px;
     padding-left: 60px;
     padding-right: 20px;
- 
 }
 
 #contact-word {
@@ -345,8 +321,6 @@ body {
     width: 200px;
     margin-right: 5px;
 }
-
-
 
 
 /*social Section*/
@@ -374,7 +348,6 @@ body {
 }
 
 
-
 /* footer */
 
 footer {
@@ -388,10 +361,7 @@ footer {
     font-size: 10px;
 }
 
-/* Mobile Responsive */
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query for `xs` since this is the default in Bootstrap */ 
+/* Mobile Responsivenesss */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 1150px) { 
@@ -401,16 +371,9 @@ footer {
         background: #fff;
     }
 
-    .container {
-        box-shadow: none;
-        margin: 0 auto;
-
-    }
-
     .row-fluid {
         margin-left: 60px;;
     }
-    
     
     .navbar-brand {
         margin: 0 auto;
@@ -423,10 +386,10 @@ footer {
         padding-bottom: 10px;
     }
 
+
     /* Slider Section*/
     /* ----------------------------------------------------------- */
 
-    
     #slider-row {
         padding: 0;
         margin: 70px 0 0 0;
@@ -441,7 +404,6 @@ footer {
     }
 
     
-
      /* About Section*/
     /* ----------------------------------------------------------- */
     
@@ -493,6 +455,7 @@ footer {
         display: none;
     }
 
+
     /* Lang Section*/
     /* ----------------------------------------------------------- */
     
@@ -517,7 +480,6 @@ footer {
     /* Portfolio Section*/
     /* ----------------------------------------------------------- */
 
-
     #portfolio-row {
         padding: 30px 0 30px 0;
         margin: 0;
@@ -525,6 +487,11 @@ footer {
 
     .card-columns {
         margin-right: 60px;       
+    }
+
+    .card-img-top {
+        width: 96%;
+        margin: 5px;
     }
 
     #port-word {
@@ -559,12 +526,6 @@ footer {
         padding: 0;
         margin: 0;
         text-align: center;
-        
-
-    }
-
-    #contact-word {
-        /* margin-left: -5px; */
     }
     
     #contact-column {
@@ -572,7 +533,6 @@ footer {
         outline: 1px solid #0A455E;
         margin: 1px -10px 1px -15px;
         font-size: 21px !important;
-       
     }
 
     #extra-border-contact {
@@ -583,6 +543,7 @@ footer {
         padding-left: 70px;
         padding-right: 10px;
     }
+
 
     /* Social Section*/
     /* ----------------------------------------------------------- */
@@ -599,20 +560,7 @@ footer {
 }
 
 /* Medium devices (tablets, 768px and up) */
-/* @media (max-width: 1000px) {
-
-     #bio-image {
-        border-radius: 10px;
-        display: inline;
-        width: 100%;
-        margin-right: 40px;
-        position: relative;
-        bottom: 25px;
-        left: 0;
-
-    }
-    
-} */
+/* @media (max-width: 1000px) { ... } */
 
 /* Large devices (desktops, 992px and up) */
 /* @media (min-width: 992px) { ... } */
