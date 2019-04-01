@@ -312,7 +312,7 @@ p {
 
 .picture:before {
 	content: '';
-	background-image: url(../image/portfolio-hp.png);
+	background-image: url(../image/my_images/portfolio-hp.png);
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
