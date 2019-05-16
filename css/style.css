@@ -1647,10 +1647,12 @@ footer {
 	}
 	.contact .mb-5 {
 		margin-bottom: 2rem !important;
+		margin-left: 165px !important;
 	}
 }
 
 @media (max-width:575.98px) {
+	
 	.title h3 {
 		font-size: 2rem;
 		color: #000;
