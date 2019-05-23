@@ -29,6 +29,15 @@ File Description : Main CSS file of the template
 
 */
 
+/*========== my stuff ==========*/
+
+.skill-item{
+	color: #ff717f;
+	font-size: 125px;
+	text-align: center;
+	/* padding-top: -20px; */
+}
+
 /*========== Start Basic Style ==========*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
